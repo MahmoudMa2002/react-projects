@@ -293,3 +293,138 @@ ul.genre-list>li:hover {
   color: #64748b;
   font-weight: 600;
 }
+
+/* Mobile/Tablet Layout (700px and below) */
+@media (max-width: 700px) {
+
+  /* Main content */
+  main {
+    padding: 30px 20px;
+  }
+
+
+  /* Form adjustments */
+  .add-genre-form {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+  }
+
+  .add-genre-form>input {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    min-width: 0;
+    text-align: center;
+    border: 3px solid transparent;
+
+  }
+
+  .add-genre-form>input {}
+
+  .add-genre-form>input:focus {
+    border: 3px solid #3b82f6;
+    outline: none;
+    box-shadow: none;
+  }
+
+
+  .add-genre-form>button {
+    width: 100%;
+    padding: 15px 17px;
+  }
+
+
+  /* Genre list */
+  ul.genre-list {
+    padding-left: 35px;
+  }
+
+  ul.genre-list>li {
+    font-size: 0.9rem;
+    line-height: 28px;
+    padding-left: 12px;
+  }
+
+  /* Touch-friendly hover replacement for mobile */
+  ul.genre-list>li:active {
+    background: rgba(136, 153, 170, 0.1);
+    transform: translateX(4px);
+    color: white;
+  }
+
+  /* Get game container */
+  .get-game-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 24px;
+  }
+
+  .get-game-container button {
+    width: 100%;
+    padding: 12px 17px;
+  }
+
+  .get-game-container {
+    padding: 18px 20px;
+  }
+
+  .get-game-container h3 {
+    font-size: 1.1rem;
+  }
+
+  .get-game-container p {
+    font-size: 0.813rem;
+  }
+
+  /* Game recommendation */
+  .game-recommendation-container {
+    padding: 20px 16px;
+    font-size: 0.95rem;
+  }
+
+  .game-recommendation-container h1 {
+    font-size: 1.35rem;
+    margin-bottom: 20px;
+  }
+
+  .game-recommendation-container h4 {
+    font-size: 0.95rem;
+    margin-top: 24px;
+  }
+
+  .game-recommendation-container ul,
+  .game-recommendation-container ol {
+    padding-left: 20px;
+  }
+
+  .game-recommendation-container ul li,
+  .game-recommendation-container ol li {
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+  }
+
+  /* Disable hover effects on mobile */
+  .add-genre-form>input:hover {
+    transform: none;
+  }
+
+  .game-recommendation-container:hover {
+    transform: none;
+  }
+
+  /* Loader */
+  .loader-container {
+    padding: 32px 20px;
+  }
+
+  .loader {
+    width: 40px;
+    height: 40px;
+  }
+
+  .loader-container p {
+    font-size: 0.875rem;
+  }
+}
