@@ -1,0 +1,175 @@
+/* Reset & Base Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', Roboto, sans-serif;
+  background-color: #1e222a;
+  color: white;
+}
+
+/* Header */
+header {
+  background-color: #14171c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 12px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+header>img {
+  width: 65px;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+header>img:hover {
+  transform: rotate(25deg) scale(1.1);
+}
+
+header>h1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Journal Entry Article */
+article.journal-entry {
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  gap: 19px;
+  padding: 20px;
+  background: linear-gradient(135deg, #14171c, #1e222a);
+  border-radius: 12px;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease;
+}
+
+article.journal-entry:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Image Container */
+.main-image-container {
+  width: 250px;
+  height: 178px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Info Container */
+.info-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-container>*:first-child {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.marker {
+  width: 15px;
+  height: 15px;
+}
+
+.country {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: white;
+}
+
+.info-container a {
+  color: #8899AA;
+  font-size: 0.75rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.info-container a:hover {
+  color: #aabbcc;
+  text-decoration: underline;
+}
+
+.entry-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 10px 0 14px 0;
+  color: white;
+}
+
+.trip-dates {
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: #8899AA;
+  margin: 0 0 12px 0;
+}
+
+.entry-text {
+  line-height: 1.6;
+  font-size: 0.875rem;
+  color: #d0d0d0;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 30px 20px;
+  }
+
+  article.journal-entry {
+    flex-direction: column;
+    padding: 16px;
+    margin: 20px auto;
+  }
+
+  .main-image-container {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 16px;
+  }
+
+  .entry-title {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 500px) {
+  header>h1 {
+    font-size: 0.8rem;
+  }
+
+  header>img {
+    width: 50px;
+  }
+
+  .entry-text {
+    font-size: 0.8rem;
+  }
+
+}
