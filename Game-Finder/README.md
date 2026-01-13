@@ -36,4 +36,4 @@ An AI-powered game recommendation app that suggests games based on user-specifie
 - Context menu event handling
 
 ## Links
-[View Project](#) | [Back to Main Projects List](../README.md)
+[View Project](https://react-projects-game-finder.vercel.app/) | [Back to Main Projects List](../README.md)
