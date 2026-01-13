@@ -46,6 +46,21 @@ main {
     text-align: center;
 }
 
+.timer-container {
+    display: flex;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+.timer {
+    color: #8899AA;
+}
+
+.best-time {
+    color: #3b82f6;
+}
+
 .dice-container {
     display: grid;
     grid-template: auto auto / repeat(5, 1fr);
@@ -124,4 +139,23 @@ button.roll-dice:active {
 
 .dot.active {
     background-color: white;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .instructions {
+        font-size: 0.9rem;
+    }
+
+    .dice-container {
+        gap: 12px;
+        margin-bottom: 20px;
+    }
 }
