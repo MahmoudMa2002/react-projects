@@ -16,10 +16,10 @@ A responsive travel journal showcasing visited locations with images, dates, and
 - Clean data structure with external data file
 
 ## Improvements Made
-- **Modern dark theme** – Gradient backgrounds and card-based design
-- **Enhanced styling** – Smooth hover effects and transitions
-- **Responsive design** – Mobile-friendly layout with media queries
-- **Visual polish** – Border effects, shadows, and refined typography
+- **Responsive design** – Mobile-friendly layout with media queries  
+- **Visual polish** – Enhanced borders, shadows, and refined typography  
+- **Image preview** – Click on an image to view it in full size  
+- **Improved UX** – Favorited cards are prioritized and displayed first
 
 ## What I Learned
 - Mapping data to components with props
