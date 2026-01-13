@@ -2,7 +2,7 @@
 A responsive travel journal showcasing visited locations with images, dates, and descriptions.
 
 ## Preview
-![Project Screenshot](./public/Demo.gif)
+![Project Screenshot](./public/demo.gif)
 
 ## Info
 **Tech:** React, CSS (Flexbox, Gradients, Transitions), JavaScript  
