@@ -1,9 +1,9 @@
 # React Projects Collection (Vite)
 
 This repository is a collection of small to medium **React projects built with Vite**.  
-Each project focuses on practicing core React concepts such as components, props, state, hooks, and basic application structure. More projects will be added over time as the repository grows.
+More projects will be added over time as the repository grows.
 
-All projects include improvements, such as UI refinements, better state handling, refactoring, or additional features. Any notable changes are documented inside each project’s folder.
+All projects include improvements. Any changes are documented inside each project’s folder.
 
 ![Projects Thumbnail](https://res.cloudinary.com/dqcv0p9p6/image/upload/v1768316435/picsart_26-01-13_17-02-27-487_wurute.png)
 
