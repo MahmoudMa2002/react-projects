@@ -30,4 +30,4 @@ A responsive travel journal showcasing visited locations with images, dates, and
 - External data management
 
 ## Links
-[View Project](#) | [Back to Main Projects List](../README.md)
+[View Project](https://react-projects-travel-journal.vercel.app/) | [Back to Main Projects List](../README.md)
