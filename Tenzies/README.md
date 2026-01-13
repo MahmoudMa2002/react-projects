@@ -18,8 +18,10 @@ An interactive dice game built with React where players roll until all dice show
 - Smooth transitions and hover effects
 
 ## Improvements Made
-- **Realistic dice rendering** – CSS Grid-based dot layout mimicking real dice
-- **Dark theme** – Modern UI with smooth animations
+- **Dice rendering** – CSS dot layout that mimics real dice faces  
+- **Dark theme** – Modern UI with smooth animations  
+- **Improved mobile layout** – Better spacing and usability on phones  
+- **Best-time timer** – Added a game timer with **localStorage** support to persist the best time Modern UI with smooth animations
 
 ## What I Learned
 - React state management with useState
@@ -30,4 +32,4 @@ An interactive dice game built with React where players roll until all dice show
 - Immutable state updates
 
 ## Links
-[View Project](#) | [Back to Main Projects List](../README.md)
+[View Project](https://react-projects-tenzies.vercel.app/) | [Back to Main Projects List](../README.md)
