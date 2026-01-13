@@ -28,7 +28,7 @@ export default function Entry(props) {
                     <div className="location-line">
                         <img
                             className="marker"
-                            src="/public/marker.png"
+                            src="/marker.png"
                             alt="map marker icon"
                         />
                         <span className="country">{props.country}</span>
