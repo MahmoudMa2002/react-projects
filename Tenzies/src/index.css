@@ -94,10 +94,6 @@ button {
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-.dice-container button:active {
-    transform: translateY(0);
-}
-
 button.roll-dice {
     height: 50px;
     width: auto;
